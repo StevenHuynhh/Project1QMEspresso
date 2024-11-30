@@ -3,6 +3,7 @@ import java.util.*;
 
 public class QuineMcCluskey {
 
+    // Main method, handles command line argument match / mismatch and executes QM
     public static void main(String[] args) {
         if (args.length < 1) {
             System.out.println("Usage: java QuineMcCluskey <input-file>");
@@ -30,9 +31,7 @@ public class QuineMcCluskey {
         }
     }
 
-    /**
-     * Parse input file in BLIF or PLA format to extract minterms.
-     */
+    // Parse input file in BLIF or PLA format to extract minterms
     private static List<String> parseInput(String inputFile) throws IOException {
         List<String> minterms = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
@@ -63,9 +62,8 @@ public class QuineMcCluskey {
         return minterms;
     }
 
-    /**
-     * Perform the Quine-McCluskey simplification on the given minterms.
-     */
+    
+    // Perform the Quine-McCluskey simplification on the given minterms.
     private static Set<String> simplify(List<String> minterms) {
         // Step 1: Group minterms by the number of 1's
         Map<Integer, List<String>> groups = new HashMap<>();
@@ -119,9 +117,8 @@ public class QuineMcCluskey {
         return primeImplicants;
     }
 
-    /**
-     * Count the number of 1's in a binary string.
-     */
+    
+    // Count the number of 1's in a binary string.
     private static int countOnes(String term) {
         int count = 0;
         for (char c : term.toCharArray()) {
@@ -130,9 +127,7 @@ public class QuineMcCluskey {
         return count;
     }
 
-    /**
-     * Combine two terms if they differ by only one bit.
-     */
+    // Combine two terms if they differ by only one bit.
     private static String combineTerms(String term1, String term2) {
         StringBuilder combined = new StringBuilder();
         int diffCount = 0;
@@ -149,9 +144,7 @@ public class QuineMcCluskey {
         return diffCount == 1 ? combined.toString() : null;
     }
 
-    /**
-     * Export the minimized Boolean expressions into a PLA file.
-     */
+    // Export the minimized Boolean expressions into a PLA file.
     private static void exportToPLA(String filename, int numInputs, int numOutputs, Set<String> minimizedTerms) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
             // Debug: Print the output file path
