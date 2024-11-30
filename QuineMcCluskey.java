@@ -25,7 +25,7 @@ public class QuineMcCluskey {
             }
 
             // Export the result to a PLA file
-            exportToPLA("output.pla", minterms.size(), 1, simplifiedTerms);
+            // exportToPLA("output.pla", minterms.size(), 1, simplifiedTerms); //**Uncomment this to test individual cases without the test runner**
         } catch (IOException e) {
             System.out.println("Error reading input file: " + e.getMessage());
         }

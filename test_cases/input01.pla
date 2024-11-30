@@ -1,0 +1,6 @@
+# Simple case (Minimal Input)
+.i 2
+.o 1
+00 1
+01 1
+.e
