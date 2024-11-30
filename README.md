@@ -2,5 +2,8 @@
 
 ## Collaborators: Steven Huynh & Gabriel Martin
 
-Intro:
-This is an implementation of the Quine-McCluskey prime implicant generation method in Java. 
+### Intro:
+
+This is an implementation of the Quine-McCluskey prime implicant generation method in Java. This repo includes the implementation itself 'QuineMcCluskey.java' that can be used to run an individual test case, as well as a script 'QuineMcCluskeyTestRunner.java' that can be used to run a batch of test cases located in the test_cases/ subdirectory.
+
+
