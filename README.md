@@ -1,4 +1,4 @@
-*QuineMcCluskey and Espresso implementation using Java for EEE 4334 Fall 2024*
+*QuineMcCluskey implementation using Java for EEE 4334 Fall 2024*
 
 To use this QuineMcCluskey implementation:
 Use the following command: 
