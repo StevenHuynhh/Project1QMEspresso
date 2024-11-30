@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-
+ 
 public class QuineMcCluskey {
 
     // Main method, handles command line argument match / mismatch and executes QM
