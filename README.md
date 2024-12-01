@@ -6,10 +6,7 @@ This repo includes the implementation itself (**QuineMcCluskey.java**) that can 
 
 ### **Directory & File Overview**:  
 **test_cases/**  
-Contains .pla test cases to be ran with QMTestRunner script  
-
-**combined_output.pla**  
-Contains the output of all test cases in test_cases/ from most recent run  
+Contains .pla test cases to be ran with QMTestRunner script    
 
 **QuineMcCluskey.class**  
 Class file generated as a result of compiling QuineMcCluskey.java  
@@ -22,3 +19,6 @@ Class file generated as a result of compiling QuineMcCluskeyTestRunner.java
 
 **QuineMcCluskeyTestRunner.java**  
 Java file responsible for scripting the execution of QM using test cases found in test_cases/  
+
+**combined_output.pla**  
+Contains the output of all test cases in test_cases/ from most recent run
