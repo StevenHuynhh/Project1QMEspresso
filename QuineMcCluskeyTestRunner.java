@@ -41,7 +41,7 @@ public class QuineMcCluskeyTestRunner {
 
                     // Add separator for clarity
                     combinedWriter.write("# End of test case: " + testFile.getName() + "\n\n");
-                    System.out.println("✅ Test Finished.");
+                    System.out.println("Test Finished.");
                 } catch (Exception e) {
                     System.out.println("Error running test case: " + e.getMessage());
                 }
