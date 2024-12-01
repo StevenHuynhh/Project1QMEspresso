@@ -100,7 +100,10 @@ public class QuineMcCluskey {
                         }
                     }
                     if (!combined) {
-                        primeImplicants.add(term1);
+                        // Only add terms that haven't been used already
+                        if (!used.getOrDefault(term1, false)) {
+                            primeImplicants.add(term1);
+                        }
                     }
                 }
             }

@@ -1,6 +1,5 @@
 # Test case: input01.pla
 Minimized Boolean Expression:
-01
 0-
 # End of test case: input01.pla
 
@@ -8,64 +7,36 @@ Minimized Boolean Expression:
 Minimized Boolean Expression:
 -111
 00-1
-1111
 000-
 0-11
 # End of test case: input02.pla
 
 # Test case: input03.pla
 Minimized Boolean Expression:
-0-101-
-10101-
---1011
-111111
-10-01-
-0--01-
-01101-
--0101-
 -0-01-
--010-1
--0-011
--0-0-1
--11011
-01-01-
-10-0-1
 0--0-1
-01-011
-10-011
-1-1011
-0110-1
-0--011
-01-0-1
-0-10-1
-1010-1
+--1011
+-0-0-1
 111-11
+0--01-
 # End of test case: input03.pla
 
 # Test case: input04.pla
 Minimized Boolean Expression:
 00-1-
-00-11
-0011-
-11111
 000--
 -1111
 0-111
-000-1
 # End of test case: input04.pla
 
 # Test case: input05.pla
 Minimized Boolean Expression:
 1-000
-11000
 00001
 # End of test case: input05.pla
 
 # Test case: input06.pla
 Minimized Boolean Expression:
--111
-0001
-0100
 000-
 0-00
 -1-1
@@ -73,19 +44,11 @@ Minimized Boolean Expression:
 
 # Test case: input07.pla
 Minimized Boolean Expression:
-111
---1
-1--
-1-1
--1-
--11
-11-
 ---
 # End of test case: input07.pla
 
 # Test case: input08.pla
 Minimized Boolean Expression:
-011
 0-1
 00-
 # End of test case: input08.pla
@@ -98,37 +61,9 @@ Minimized Boolean Expression:
 
 # Test case: input10.pla
 Minimized Boolean Expression:
---0-
-110-
-0-11
-011-
-1-01
-0---
-0-1-
-1-0-
--0-1
--1-0
-10-1
-11-0
--011
--110
 -0--
 ---0
-1011
-1110
-10--
-1--0
--01-
---10
-101-
-1-10
--101
-01-1
---01
--10-
-1101
-0111
-0--1
-01--
+--0-
+0---
 # End of test case: input10.pla
 
