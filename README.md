@@ -22,3 +22,11 @@ Java file responsible for scripting the execution of QM using test cases found i
 
 **combined_output.pla**  
 Contains the output of all test cases in test_cases/ from most recent run
+
+## **Usage**  
+Running QuineMcCluskey.java:  
+First, *make sure* that you **uncomment line 28** 'exportToPLA'. This is commented out to ease compatibility with the script.  
+Use 'java -cp QuineMcCluskey test.pla' where test.pla is the test case you wish to use.  
+
+Running QuineMcCluskeyTestRunner.java:  
+Use 'java QuineMcCluskeyTestRunner' making sure that all test cases are in the test_cases/ subdirectory  
